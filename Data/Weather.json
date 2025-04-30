@@ -1,0 +1,50 @@
+{
+  "location": {
+    "city": "Toronto",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 43.65107,
+      "longitude": -79.347015
+    }
+  },
+  "date": "2025-04-30",
+  "current": {
+    "temperature": {
+      "value": 14.3,
+      "unit": "Celsius"
+    },
+    "feels_like": {
+      "value": 13.1,
+      "unit": "Celsius"
+    },
+    "weather": {
+      "main": "Cloudy",
+      "description": "Overcast clouds",
+      "icon": "04d"
+    },
+    "humidity": 72,
+    "wind": {
+      "speed": 5.4,
+      "unit": "m/s",
+      "direction": "NE"
+    },
+    "pressure": 1015
+  },
+  "forecast": [
+    {
+      "time": "12:00",
+      "temperature": 14.5,
+      "weather": "Cloudy"
+    },
+    {
+      "time": "15:00",
+      "temperature": 15.0,
+      "weather": "Partly Cloudy"
+    },
+    {
+      "time": "18:00",
+      "temperature": 13.2,
+      "weather": "Cloudy"
+    }
+  ]
+}
