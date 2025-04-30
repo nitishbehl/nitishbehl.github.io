@@ -1,0 +1,32 @@
+{
+  "date": "2025-04-30",
+  "movies": [
+    {
+      "id": "mv001",
+      "title": "Echoes of Tomorrow",
+      "release_date": "2025-04-26",
+      "genre": ["Sci-Fi", "Thriller"],
+      "rating": 7.9,
+      "summary": "A scientist discovers a way to send messages to the past but risks everything to prevent a global disaster.",
+      "poster_url": "https://example.com/posters/echoes_of_tomorrow.jpg"
+    },
+    {
+      "id": "mv002",
+      "title": "Heartstrings",
+      "release_date": "2025-04-28",
+      "genre": ["Romance", "Drama"],
+      "rating": 6.8,
+      "summary": "Two musicians from different worlds find love and healing through their shared passion for music.",
+      "poster_url": "https://example.com/posters/heartstrings.jpg"
+    },
+    {
+      "id": "mv003",
+      "title": "The Last Horizon",
+      "release_date": "2025-04-30",
+      "genre": ["Adventure", "Fantasy"],
+      "rating": 8.2,
+      "summary": "A young explorer embarks on a mythical journey to uncover the truth behind a lost civilization.",
+      "poster_url": "https://example.com/posters/the_last_horizon.jpg"
+    }
+  ]
+}
