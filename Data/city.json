@@ -1,0 +1,24 @@
+{
+  "cities": [
+    {
+      "city": "New York",
+      "temperature": "22°C"
+    },
+    {
+      "city": "London",
+      "temperature": "15°C"
+    },
+    {
+      "city": "Tokyo",
+      "temperature": "19°C"
+    },
+    {
+      "city": "Mumbai",
+      "temperature": "33°C"
+    },
+    {
+      "city": "Kitchener",
+      "temperature": "17°C"
+    }
+  ]
+}
