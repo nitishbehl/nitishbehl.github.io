@@ -34,32 +34,21 @@
     {
       "time": "12:00",
       "temperature": 14.5,
-      "weather": "Cloudy"
+      "weather": "Cloudy",
+      "day": "Wednesday"
     },
     {
       "time": "15:00",
       "temperature": 15.0,
-      "weather": "Partly Cloudy"
+      "weather": "Partly Cloudy",
+      "day": "Wednesday"
     },
     {
       "time": "18:00",
       "temperature": 13.2,
-      "weather": "Cloudy"
-    },
-    {
-      "time": "18:00",
-      "temperature": 13.2,
-      "weather": "Cloudy"
-    },
-    {
-      "time": "18:00",
-      "temperature": 13.2,
-      "weather": "Cloudy"
-    },
-    {
-      "time": "18:00",
-      "temperature": 13.2,
-      "weather": "Cloudy"
+      "weather": "Cloudy",
+      "day": "Wednesday"
     }
-  ]
+  ],
+  "alerts": []
 }
