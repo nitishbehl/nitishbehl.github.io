@@ -28,7 +28,12 @@
       "unit": "m/s",
       "direction": "NE"
     },
-    "pressure": 1015
+    "pressure": 1015,
+    "precipitation": 0.0,
+    "uv_index": 3.2,
+    "visibility": 10000,
+    "sunrise": "06:12",
+    "sunset": "20:11"
   },
   "forecast": [
     {
@@ -48,7 +53,62 @@
       "temperature": 13.2,
       "weather": "Cloudy",
       "day": "Wednesday"
+    },
+    {
+      "time": "21:00",
+      "temperature": 11.4,
+      "weather": "Clear",
+      "day": "Wednesday"
+    },
+    {
+      "time": "00:00",
+      "temperature": 10.1,
+      "weather": "Clear",
+      "day": "Thursday"
+    },
+    {
+      "time": "03:00",
+      "temperature": 9.3,
+      "weather": "Clear",
+      "day": "Thursday"
     }
   ],
-  "alerts": []
+  "hourly_forecast": [
+    {
+      "time": "12:00",
+      "temperature": 14.5,
+      "weather": {
+        "main": "Cloudy",
+        "description": "Overcast clouds",
+        "icon": "04d"
+      }
+    },
+    {
+      "time": "15:00",
+      "temperature": 15.0,
+      "weather": {
+        "main": "Partly Cloudy",
+        "description": "Partly cloudy skies",
+        "icon": "03d"
+      }
+    },
+    {
+      "time": "18:00",
+      "temperature": 13.2,
+      "weather": {
+        "main": "Cloudy",
+        "description": "Cloudy",
+        "icon": "04n"
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "title": "Wind Advisory",
+      "description": "Strong winds with gusts up to 60 km/h expected this afternoon.",
+      "severity": "moderate",
+      "start": "2025-04-30T12:00:00Z",
+      "end": "2025-04-30T18:00:00Z"
+    }
+  ]
 }
