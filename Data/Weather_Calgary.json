@@ -1,0 +1,70 @@
+{
+  "alerts": [
+    {
+      "title": "Wind Warning",
+      "description": "Strong winds expected throughout the day, with gusts up to 70 km/h.",
+      "start": "2025-05-11T09:00:00-06:00",
+      "end": "2025-05-11T21:00:00-06:00",
+      "severity": "moderate"
+    }
+  ],
+  "current": {
+    "temperature": {
+      "value": 12.0,
+      "unit": "C"
+    },
+    "feels_like": {
+      "value": 10.5,
+      "unit": "C"
+    },
+    "humidity": 60,
+    "pressure": 1014,
+    "precipitation": 0.0,
+    "uv_index": 4.2,
+    "visibility": 10000,
+    "sunrise": "2025-05-11T05:45:00-06:00",
+    "sunset": "2025-05-11T21:15:00-06:00",
+    "weather": {
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    },
+    "wind": {
+      "speed": 15.4,
+      "direction": "NW",
+      "unit": "km/h"
+    }
+  },
+  "date": "2025-05-11",
+  "location": {
+    "city": "Calgary",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 51.0447,
+      "longitude": -114.0719
+    }
+  },
+  "forecast": [
+    { "day": "Sunday", "time": "2025-05-11", "temperature": 14.5, "weather": "Sunny" },
+    { "day": "Monday", "time": "2025-05-12", "temperature": 16.1, "weather": "Partly Cloudy" },
+    { "day": "Tuesday", "time": "2025-05-13", "temperature": 17.3, "weather": "Cloudy" },
+    { "day": "Wednesday", "time": "2025-05-14", "temperature": 15.0, "weather": "Rain" },
+    { "day": "Thursday", "time": "2025-05-15", "temperature": 12.7, "weather": "Light Rain" },
+    { "day": "Friday", "time": "2025-05-16", "temperature": 13.9, "weather": "Partly Cloudy" },
+    { "day": "Saturday", "time": "2025-05-17", "temperature": 15.8, "weather": "Sunny" }
+  ],
+  "hourly_forecast": [
+    { "time": "2025-05-11T08:00:00-06:00", "temperature": 9.2, "weather": { "main": "Clear", "description": "clear sky", "icon": "01d" } },
+    { "time": "2025-05-11T09:00:00-06:00", "temperature": 10.4, "weather": { "main": "Clear", "description": "clear sky", "icon": "01d" } },
+    { "time": "2025-05-11T10:00:00-06:00", "temperature": 11.6, "weather": { "main": "Clear", "description": "clear sky", "icon": "01d" } },
+    { "time": "2025-05-11T11:00:00-06:00", "temperature": 12.8, "weather": { "main": "Clear", "description": "clear sky", "icon": "01d" } },
+    { "time": "2025-05-11T12:00:00-06:00", "temperature": 13.5, "weather": { "main": "Clear", "description": "sunny", "icon": "01d" } },
+    { "time": "2025-05-11T13:00:00-06:00", "temperature": 14.0, "weather": { "main": "Clear", "description": "sunny", "icon": "01d" } },
+    { "time": "2025-05-11T14:00:00-06:00", "temperature": 14.5, "weather": { "main": "Clouds", "description": "few clouds", "icon": "02d" } },
+    { "time": "2025-05-11T15:00:00-06:00", "temperature": 14.2, "weather": { "main": "Clouds", "description": "scattered clouds", "icon": "03d" } },
+    { "time": "2025-05-11T16:00:00-06:00", "temperature": 13.6, "weather": { "main": "Clouds", "description": "broken clouds", "icon": "04d" } },
+    { "time": "2025-05-11T17:00:00-06:00", "temperature": 13.0, "weather": { "main": "Rain", "description": "light rain", "icon": "10d" } },
+    { "time": "2025-05-11T18:00:00-06:00", "temperature": 11.8, "weather": { "main": "Rain", "description": "moderate rain", "icon": "10d" } },
+    { "time": "2025-05-11T19:00:00-06:00", "temperature": 10.7, "weather": { "main": "Rain", "description": "light rain", "icon": "10d" } }
+  ]
+}
