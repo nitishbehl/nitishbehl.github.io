@@ -1,90 +1,70 @@
 {
   "alerts": [
     {
+      "title": "Wind Warning",
       "description": "Strong wind gusts expected throughout the day. Secure loose objects.",
-      "end": "2025-04-30T20:00:00-07:00",
-      "severity": "high",
       "start": "2025-04-30T09:00:00-07:00",
-      "title": "Wind Warning"
+      "end": "2025-04-30T20:00:00-07:00",
+      "severity": "high"
     }
   ],
   "current": {
+    "temperature": {
+      "value": 11.2,
+      "unit": "C"
+    },
     "feels_like": {
-      "unit": "C",
-      "value": 9.0
+      "value": 9.0,
+      "unit": "C"
     },
     "humidity": 76,
     "precipitation": 0.0,
     "pressure": 1015,
-    "sunrise": "2025-04-30T05:45:00-07:00",
-    "sunset": "2025-04-30T20:25:00-07:00",
-    "temperature": {
-      "unit": "C",
-      "value": 11.2
-    },
     "uv_index": 4.1,
     "visibility": 12000,
+    "sunrise": "2025-04-30T05:45:00-07:00",
+    "sunset": "2025-04-30T20:25:00-07:00",
     "weather": {
+      "main": "Clouds",
       "description": "partly cloudy",
-      "icon": "02d",
-      "main": "Clouds"
+      "icon": "02d"
     },
     "wind": {
-      "direction": "W",
       "speed": 25.0,
+      "direction": "W",
       "unit": "km/h"
     }
   },
   "date": "2025-04-30",
-  "forecast": [
-    {
-      "day": "Wednesday",
-      "temperature": 13.0,
-      "time": "2025-04-30",
-      "weather": "Partly Cloudy"
-    },
-    {
-      "day": "Thursday",
-      "temperature": 15.5,
-      "time": "2025-05-01",
-      "weather": "Sunny"
-    }
-  ],
-  "hourly_forecast": [
-    {
-      "temperature": 10.5,
-      "time": "2025-04-30T09:00:00-07:00",
-      "weather": {
-        "description": "clear sky",
-        "icon": "01d",
-        "main": "Clear"
-      }
-    },
-    {
-      "temperature": 12.0,
-      "time": "2025-04-30T12:00:00-07:00",
-      "weather": {
-        "description": "few clouds",
-        "icon": "02d",
-        "main": "Clouds"
-      }
-    },
-    {
-      "temperature": 13.2,
-      "time": "2025-04-30T15:00:00-07:00",
-      "weather": {
-        "description": "scattered clouds",
-        "icon": "03d",
-        "main": "Clouds"
-      }
-    }
-  ],
   "location": {
     "city": "Vancouver",
+    "country": "Canada",
     "coordinates": {
       "latitude": 49.2827,
       "longitude": -123.1207
-    },
-    "country": "Canada"
-  }
+    }
+  },
+  "forecast": [
+    { "day": "Wednesday", "time": "2025-04-30", "temperature": 13.0, "weather": "Partly Cloudy" },
+    { "day": "Thursday", "time": "2025-05-01", "temperature": 15.5, "weather": "Sunny" },
+    { "day": "Friday", "time": "2025-05-02", "temperature": 14.8, "weather": "Cloudy" },
+    { "day": "Saturday", "time": "2025-05-03", "temperature": 13.2, "weather": "Light Rain" },
+    { "day": "Sunday", "time": "2025-05-04", "temperature": 14.0, "weather": "Rain" },
+    { "day": "Monday", "time": "2025-05-05", "temperature": 16.5, "weather": "Sunny" },
+    { "day": "Tuesday", "time": "2025-05-06", "temperature": 17.0, "weather": "Sunny" }
+  ],
+  "hourly_forecast": [
+    { "time": "2025-04-30T08:00:00-07:00", "temperature": 10.0, "weather": { "main": "Clear", "description": "clear sky", "icon": "01d" } },
+    { "time": "2025-04-30T09:00:00-07:00", "temperature": 10.5, "weather": { "main": "Clear", "description": "clear sky", "icon": "01d" } },
+    { "time": "2025-04-30T10:00:00-07:00", "temperature": 11.0, "weather": { "main": "Clouds", "description": "few clouds", "icon": "02d" } },
+    { "time": "2025-04-30T11:00:00-07:00", "temperature": 11.5, "weather": { "main": "Clouds", "description": "scattered clouds", "icon": "03d" } },
+    { "time": "2025-04-30T12:00:00-07:00", "temperature": 12.0, "weather": { "main": "Clouds", "description": "few clouds", "icon": "02d" } },
+    { "time": "2025-04-30T13:00:00-07:00", "temperature": 12.8, "weather": { "main": "Clouds", "description": "broken clouds", "icon": "04d" } },
+    { "time": "2025-04-30T14:00:00-07:00", "temperature": 13.0, "weather": { "main": "Clouds", "description": "scattered clouds", "icon": "03d" } },
+    { "time": "2025-04-30T15:00:00-07:00", "temperature": 13.2, "weather": { "main": "Clouds", "description": "scattered clouds", "icon": "03d" } },
+    { "time": "2025-04-30T16:00:00-07:00", "temperature": 13.0, "weather": { "main": "Clouds", "description": "few clouds", "icon": "02d" } },
+    { "time": "2025-04-30T17:00:00-07:00", "temperature": 12.6, "weather": { "main": "Clouds", "description": "overcast clouds", "icon": "04d" } },
+    { "time": "2025-04-30T18:00:00-07:00", "temperature": 11.8, "weather": { "main": "Clouds", "description": "broken clouds", "icon": "04d" } },
+    { "time": "2025-04-30T19:00:00-07:00", "temperature": 11.0, "weather": { "main": "Clouds", "description": "scattered clouds", "icon": "03d" } }
+  ]
 }
